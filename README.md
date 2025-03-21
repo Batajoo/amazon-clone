@@ -40,7 +40,7 @@ REACT_APP_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
 
 ### 4. Start the Development Server
 ```sh
-npm start
+npm run dev
 ```
 
 ## Folder Structure
@@ -63,11 +63,11 @@ npm start
 ## Roadmap
 - [x] Define features and set up project structure
 - [x] Initialize React, install dependencies, and configure Tailwind CSS
-- [x] Set up React Router and define main pages
-- [x] Configure Redux Toolkit and create slices (auth, product, cart, order)
-- [x] Build reusable UI components with Tailwind CSS
-- [x] Setup Appwrite backend (authentication, database, API functions)
-- [x] Integrate frontend with Appwrite (fetch products, authentication, cart management)
+- [] Set up React Router and define main pages
+- [] Configure Redux Toolkit and create slices (auth, product, cart, order)
+- [] Build reusable UI components with Tailwind CSS
+- [] Setup Appwrite backend (authentication, database, API functions)
+- [] Integrate frontend with Appwrite (fetch products, authentication, cart management)
 - [ ] Implement Cart and Checkout functionality
 - [ ] Integrate Payment System (e.g., Stripe or PayPal)
 - [ ] Debug and test UI/UX responsiveness
