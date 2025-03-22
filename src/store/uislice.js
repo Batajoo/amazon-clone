@@ -23,5 +23,5 @@ const uiSlice = createSlice({
     }
 })
 
-export {toogleTheme, sidebarOpen, setNotification} = uiSlice.actions;
+export const {toogleTheme, sidebarOpen, setNotification} = uiSlice.actions;
 export default uiSlice.reducer;
