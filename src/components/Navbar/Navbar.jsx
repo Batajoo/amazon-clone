@@ -3,6 +3,7 @@ import {Link} from "react-router"
 import amazonLogo from "../../assets/amazon-logo.webp"
 import SearchBox from './SearchBox'
 import DropdownPopup from "../DropdownPopup.jsx"
+
 function Navbar() {
   return (
     <navbar
