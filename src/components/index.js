@@ -6,6 +6,8 @@ import Login from "./Login"
 import Button from "./Button"
 import Container from "./Container";
 import Logo from "./Logo"
+import Signup from "./Signup";
+
 export {
     Navbar,
     DropdownPopup,
@@ -14,5 +16,6 @@ export {
     Login,
     Button,
     Container,
-    Logo
+    Logo,
+    Signup,
 }

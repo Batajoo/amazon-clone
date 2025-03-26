@@ -1,9 +1,14 @@
 import React from 'react'
-
+import { Container, Signup, Logo } from '../components'
 function Register() {
   return (
     <div>
-      register
+      <Container>
+        <div className='w-fit mx-auto'>
+          <Logo/>
+        </div>
+        <Signup/>
+      </Container>
     </div>
   )
 }
