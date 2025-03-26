@@ -21,7 +21,7 @@ const Input = forwardRef(function Input({
                 ref={ref}
                 id={id}
                 placeholder={placeholder}
-                className=''
+                className='w-full border-1 rounded-sm p-1'
                 {...props}
             />
         
