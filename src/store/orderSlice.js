@@ -28,3 +28,6 @@ const orderSlice = createSlice({
         }
     }
 })
+
+export default orderSlice.reducer
+export const {placeOrderStart, placeOrderFailure, placeOrderSuccess, fetchOrders} = orderSlice.actions

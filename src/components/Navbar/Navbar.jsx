@@ -1,17 +1,14 @@
 import React from 'react'
 import {Link} from "react-router"
-import amazonLogo from "../../assets/amazon-logo.webp"
-import SearchBox from './SearchBox'
-import DropdownPopup from "../DropdownPopup.jsx"
+import {Logo, DropdownPopup} from "../"
+import SearchBox from "./SearchBox"
 
 function Navbar() {
   return (
-    <navbar
+    <nav
       className="flex h-15 justify-between items-center bg-gray-300"
     >
-        <Link to="/">
-            <img src={amazonLogo} alt='logo' className='h-15'/>
-        </Link>
+        <Logo/>
         <SearchBox/>
         <DropdownPopup
           titleText={
@@ -21,7 +18,7 @@ function Navbar() {
             }
           }
         />
-    </navbar>
+    </nav>
   )
 }
 

@@ -14,3 +14,5 @@ const store = configureStore({
         ui: uiReducer,
     }
 })
+
+export {store}
