@@ -7,6 +7,8 @@ import Button from "./Button"
 import Container from "./Container";
 import Logo from "./Logo"
 import Signup from "./Signup";
+import Carousel from "./Carousel";
+
 
 export {
     Navbar,
@@ -18,4 +20,6 @@ export {
     Container,
     Logo,
     Signup,
+    Carousel,
+    
 }
