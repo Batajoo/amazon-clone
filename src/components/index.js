@@ -8,7 +8,7 @@ import Container from "./Container";
 import Logo from "./Logo"
 import Signup from "./Signup";
 import Carousel from "./Carousel";
-
+import HomeProductsPreviewCard from "./HomeProductsPreviewCard";
 
 export {
     Navbar,
@@ -21,5 +21,6 @@ export {
     Logo,
     Signup,
     Carousel,
+    HomeProductsPreviewCard,
     
 }

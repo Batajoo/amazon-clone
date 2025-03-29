@@ -12,7 +12,7 @@ function DropdownPopup({titleText, SignIn, Logout, isAuthenticated=false}) {
             <p className='font-bold'>{titleText.text2}</p>
           }
           
-          <div className='absolute right-0 w-50 bg-gray-100 flex-col hidden group-hover:flex rounded-sm items-center'>
+          <div className='absolute right-0 w-50 bg-gray-100 flex-col hidden group-hover:flex rounded-sm items-center z-10'>
 
             <div className='my-4 flex flex-col gap-1'>
             {!isAuthenticated ? 
